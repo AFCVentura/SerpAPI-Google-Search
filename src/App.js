@@ -5,7 +5,7 @@ import Cors from "cors";
 
 // Aplicação dá erro de CORS se chamar diretamente a API, então precisamos criar uma aplicação back-end como proxy
 const API_KEY =
-  "42c0f39f69db5edbd4057951755bc3e03febf149d3329f89ffd859db5e4bb372"; // Chave da API (nesse caso do SerpAPI)
+  ""; // Chave da API (nesse caso do SerpAPI)
 
 function App() {
   // Estudar sobre useState;
