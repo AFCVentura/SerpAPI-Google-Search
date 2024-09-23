@@ -9,7 +9,7 @@ app.use(cors());
 app.get("/search", async (req, res) => {
   const { query } = req.query;
   const API_KEY =
-    "42c0f39f69db5edbd4057951755bc3e03febf149d3329f89ffd859db5e4bb372"; // Chave da API (nesse caso do SerpAPI)
+    ""; // Chave da API (nesse caso do SerpAPI)
   try {
     const response = await axios.get("https://serpapi.com/search.json", {
       params: {
